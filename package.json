@@ -6,7 +6,10 @@
     "dev": "remotion studio",
     "build": "remotion bundle",
     "render": "remotion render GitHubAIPulse",
-    "upgrade": "remotion upgrade"
+    "upgrade": "remotion upgrade",
+    "website": "vite",
+    "website:build": "vite build",
+    "website:preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -15,11 +18,14 @@
   "license": "UNLICENSED",
   "dependencies": {
     "@remotion/cli": "^4.0.0",
-    "@remotion/transitions": "^4.0.0",
     "@remotion/google-fonts": "^4.0.0",
+    "@remotion/player": "^4.0.447",
+    "@remotion/transitions": "^4.0.0",
+    "@vitejs/plugin-react": "^6.0.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "remotion": "^4.0.0"
+    "remotion": "^4.0.0",
+    "vite": "^8.0.8"
   },
   "devDependencies": {
     "@remotion/eslint-config-flat": "^4.0.0",
