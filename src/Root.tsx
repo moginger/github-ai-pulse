@@ -6,7 +6,7 @@ export const RemotionRoot: React.FC = () => (
     <Composition
       id="GitHubAIPulse"
       component={GitHubPulseMain}
-      durationInFrames={1200}
+      durationInFrames={990}
       fps={30}
       width={1080}
       height={1920}

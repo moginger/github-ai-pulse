@@ -90,7 +90,7 @@ export const App: React.FC = () => {
         >
           <Player
             component={GitHubPulseMain}
-            durationInFrames={1200}
+            durationInFrames={990}
             compositionWidth={1080}
             compositionHeight={1920}
             fps={30}
@@ -216,14 +216,11 @@ export const App: React.FC = () => {
                 marginBottom: 24,
               }}
             >
-              We build automated visual intelligence systems. Turn live
-              data into cinematic content — crypto trackers, AI dashboards,
-              and more.
+              We design and build automated content systems for brands and creators.
+              Got a project in mind? Let's talk.
             </p>
             <a
-              href="https://youtube.com/@mogingerstudios"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:mr3ynolds@googlemail.com"
               style={{
                 display: "block",
                 textAlign: "center",
@@ -236,7 +233,7 @@ export const App: React.FC = () => {
                 fontSize: 16,
               }}
             >
-              Subscribe on YouTube
+              Get in Touch
             </a>
           </div>
 
@@ -251,10 +248,9 @@ export const App: React.FC = () => {
               }}
             >
               {[
-                "Real-time GitHub API integration",
-                "Automated video generation",
-                "Zero API keys required",
-                "Free to host on GitHub Pages",
+                "Live data-driven video content",
+                "Built for brands and creators",
+                "Custom dashboards and visuals",
               ].map((item) => (
                 <li
                   key={item}
