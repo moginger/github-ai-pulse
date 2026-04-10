@@ -90,7 +90,7 @@ export const App: React.FC = () => {
         >
           <Player
             component={GitHubPulseMain}
-            durationInFrames={990}
+            durationInFrames={960}
             compositionWidth={1080}
             compositionHeight={1920}
             fps={30}
